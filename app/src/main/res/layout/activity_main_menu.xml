@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#00052d"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu">
+
+    <Button
+        android:id="@+id/exit_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/baseline_stay_primary_landscape_white_48dp"
+        android:text="Выход" />
+
+    <Button
+        android:id="@+id/music_game_bt"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/baseline_stay_primary_landscape_white_48dp"
+        android:text="Выбрать"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/hardcore_game_bt"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/music_game_bt"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/baseline_stay_primary_landscape_white_48dp"
+        android:text="Хардкор"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/one_minute_game_bt"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/hardcore_game_bt"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/baseline_stay_primary_landscape_white_48dp"
+        android:text="За минуту"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/free_game_bt"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/one_minute_game_bt"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/baseline_stay_primary_landscape_white_48dp"
+        android:text="Свободная "
+        android:textColor="#ffffff" />
+</RelativeLayout>
